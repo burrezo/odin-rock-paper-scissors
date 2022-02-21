@@ -15,7 +15,7 @@ function userPlay() {
     
     do {
 
-    let playerSelection = prompt(`Round ${round}/5\n\nUser: ${userTotal} Computer: ${computerTotal}\n\nChose rock, paper or scissors:`);
+    let playerSelection = prompt(`Round ${round}/5\n\nUser: ${userTotal} Computer: ${computerTotal}\n\nChoose rock, paper or scissors:`);
 
     playerSelectionLowerCase = playerSelection.toLowerCase();
 
