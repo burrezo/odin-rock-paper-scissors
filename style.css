@@ -1,0 +1,85 @@
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: #fffafa;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body {
+    background-color: #003344;
+}
+
+a {
+    color: green;
+}
+
+footer {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.options {
+    opacity: 0.5;
+}
+
+.options:hover {
+    opacity: 1;
+}
+
+.computerOption {
+    border-radius: 50%;
+    border: 10px solid orange;
+}
+
+.optionClick {
+    transform: scale(0.9);
+}
+
+.game {
+    position: relative;
+    margin: 40vh 45vw;
+}
+.sheldon {
+    position: absolute;
+    border: 10px solid orange;
+    border-radius: 50%;
+    bottom: -130px;
+    left: -70px;
+}
+
+#btn-rock {
+    position: absolute;
+    left: -220px;
+}
+
+#btn-paper {
+    position: absolute;
+    left: -215px;
+    bottom: 70px;
+}
+
+#btn-scissors {
+    position: absolute;
+    bottom: 200px;
+}
+
+#btn-lizard {
+    position: absolute;
+    left: 230px;
+    bottom: 70px;
+}
+
+#btn-spock {
+    position: absolute;
+    left: 240px;
+}
+
+#score {
+    margin-top: 550px;
+    font-family: 'Gochi Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    color: #fffafa;
+    font-size: 3rem;
+    text-align: center;
+}
