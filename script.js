@@ -114,12 +114,12 @@ btn.forEach(button => button.addEventListener('click', () => {
         h3.textContent = 'YOU WIN!!';
         youwin.play();
         if (confirm('Do you wanna play again?')) location.reload();
-        else localtion.assign('https://www.theodinproject.com')
+        else location.assign('https://www.theodinproject.com')
     }
     else if (computerTotal >= 5) {
         h3.textContent = 'YOU LOOSE!';
         youlose.play();
         if (confirm('Do you wanna play again?')) location.reload();
-        else localtion.assign('https://www.theodinproject.com')
+        else location.assign('https://www.theodinproject.com')
     } 
 }));
